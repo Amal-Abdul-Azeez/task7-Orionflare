@@ -1,0 +1,293 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+#linglee{
+    position: relative;
+    bottom: 5vh;
+    right: 2vw;
+}
+i{
+   margin: 20px;
+}
+.homework > i{
+    padding: 7px;
+    opacity: 0.3;
+}
+
+#break{
+    display: block;
+    content: "";
+    margin-bottom: 2vh;
+
+}
+#linglee{
+    position: relative;
+    left: 5vw;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subject{
+    position: relative;
+    top: -7vh;
+}   
+
+.info{
+    color: grey;
+    font-size: 14px;
+    opacity: 0.6;
+    
+}
+.menubr{
+        display: block;
+        content: "";
+        margin-top: 0.5vh;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+#menu{
+   
+    flex-basis: 15%;
+    background-color: white;
+   
+}
+.dashboard{
+   position: relative;
+   font-size: 15px;
+   font-weight: bolder;
+   left: 20px;
+   
+}
+li{
+    list-style-type: none;
+}
+#welcome{
+    padding: 20px;
+    position: relative;
+    width: 58vw;
+    right: 15px;
+    height: 12vh;
+    padding-bottom: 2vh;
+    margin:20px 20px 10px 10px;
+    border-radius: 20px;
+    background-color: #ffe6e6;
+
+}
+#welc{
+    font-size: 20px;
+    color:   #e60000;
+    position: relative;
+    bottom: 2vh;
+    text-shadow: 0.5px 0.5px 2px #e60000;
+    margin-left: 35px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    opacity: 0.6;
+    
+}
+.tagline{
+    font-size: 12px;
+    font-weight: 550;
+    color:  #262626;
+    margin-left: 35px;
+    position: relative;
+    bottom: 5vh;
+   
+}
+.heading{
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+    margin: 15px;
+}
+.course{
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 40px;
+    position: relative;
+    left: 2vw;
+    top:5vh;
+}
+#box1{
+   position: relative;
+   font-size: 13px;
+   right: 0.7vw;
+   background-color: white;
+   width: 26vw;
+   height: 50vh;
+   margin:20px 20px 0px 10px;
+   border-radius: 20px;
+   bottom: 0px; 
+}
+#box2{
+    background-color: white;
+    width: 20vw;
+    border-radius: 20px;
+    height: 50vh;
+    margin:20px 20px 0px 10px;
+    bottom: 0px; 
+
+}
+    
+#middle{
+margin: 0px;
+flex-basis: 65%;
+width: 100vh;
+background-color: #f7faf7;
+}
+#c1,#c2,#c3{
+    background-color:  #5656b1;
+    width: 16.5vw;
+    height: 10vh;
+    margin:30px 20px 0px 10px;
+    bottom: 0px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+#c1,#c2,#c3 > p{
+font-size: 10px;
+}
+#illust{
+    position: relative;
+    bottom: 25vh;
+    left: 50vw;
+}
+#courses{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+
+}
+
+#c3 > h6{
+margin-top: 0px;
+}
+#c1{
+background-color:  #5656b1;
+}
+#c2{
+    background-color: #aeaeea;
+}
+#c3{
+    background-color: #ff8080;
+}
+#profile{
+    flex-basis: 20%;
+}
+.logout{
+    position: relative;
+    bottom: 94vh;
+    left:67vw;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#s1,#s2{
+    position: relative;
+    left:67vw;
+    font-size: 15px;
+    font-weight: 700;
+}
+#s1{
+    bottom: 90vh;
+}
+#s2{
+    bottom: 68vh;
+}
+#reminder{
+    position: relative;
+    bottom: 88vh;
+    left: 65vw;
+    font-size: 13px;
+    font-weight: 700;
+}
+.square{
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    margin: 2vh;
+    opacity: 0.3;
+    height: 6vh;
+    width: 3vw;
+    font-size: 13px;
+}
+.upgrade{
+    display: block;
+    content: "";
+    margin-bottom: 23vh;
+   
+}
+#pro{
+    position: relative;
+    bottom: 10vh;
+}
+.upgra{
+    position: relative;
+    bottom: 15vh;
+    height: 25vh;
+    width:13vw;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 5vh;
+}
+.upgra>p{
+    position: relative;
+    bottom: 10vh;
+}
+#upgrade{
+    height: 6vh;
+   
+    padding: 5px 5px 6vh 5px;
+    text-align: center;
+    width: 20vh;
+    color:white;
+    border-radius: 10px;
+    background-color:  #668cff;
+    border-color:#668cff ;
+    position: relative;
+    bottom: 11vh;
+
+}
+.space{
+    display: block;
+    content: "";
+    margin-bottom: 1px;
+
+}
+.profilePic{
+    position: relative;
+    bottom: 94vh;
+    left: 67.5vw;
+}
+figcaption{
+    position: relative;
+    bottom: 94vh;
+    left: 69.5vw;
+}
+.performance{
+    position: relative;
+    bottom: 93vh;
+    left:66vw;
+
+}
+sub{
+    text-indent: 3vw;
+}
